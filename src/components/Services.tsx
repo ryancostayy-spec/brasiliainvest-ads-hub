@@ -1,36 +1,44 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Search, Building2, Heart, FileSearch, Camera, ShieldCheck } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Search, Building2, Heart, FileSearch, Camera, ShieldCheck, ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const services = [
   {
     icon: Search,
     title: "Investigação Particular",
     description: "Investigações discretas de pessoas, localização de bens e averiguação de antecedentes.",
+    link: "/investigacao-particular",
   },
   {
     icon: Heart,
     title: "Investigação Matrimonial",
     description: "Investigação de infidelidade conjugal e relacionamentos com total discrição e profissionalismo.",
+    link: "/investigacao-matrimonial",
   },
   {
     icon: Building2,
     title: "Investigação Corporativa",
     description: "Due diligence, investigação de fraudes internas e segurança empresarial.",
+    link: "/investigacao-corporativa",
   },
   {
     icon: FileSearch,
     title: "Investigação Trabalhista",
     description: "Coleta de provas para processos trabalhistas e verificação de atestados médicos.",
+    link: "#",
   },
   {
     icon: Camera,
     title: "Vigilância e Monitoramento",
     description: "Acompanhamento discreto 24h com equipamentos de última geração.",
+    link: "#",
   },
   {
     icon: ShieldCheck,
     title: "Consultoria em Segurança",
     description: "Análise de vulnerabilidades e implementação de medidas de segurança preventivas.",
+    link: "#",
   },
 ];
 
@@ -51,7 +59,7 @@ const Services = () => {
           {services.map((service, index) => (
             <Card 
               key={index} 
-              className="border-border hover:shadow-lg transition-all duration-300 hover:translate-y-[-4px]"
+              className="border-border hover:shadow-lg transition-all duration-300 hover:translate-y-[-4px] flex flex-col"
             >
               <CardHeader>
                 <div className="w-14 h-14 rounded-lg bg-accent/10 flex items-center justify-center mb-4">
@@ -59,10 +67,18 @@ const Services = () => {
                 </div>
                 <CardTitle className="text-xl">{service.title}</CardTitle>
               </CardHeader>
-              <CardContent>
-                <CardDescription className="text-base">
+              <CardContent className="flex-grow flex flex-col">
+                <CardDescription className="text-base mb-4 flex-grow">
                   {service.description}
                 </CardDescription>
+                {service.link !== "#" && (
+                  <Link to={service.link}>
+                    <Button variant="outline" className="w-full group">
+                      Saiba Mais
+                      <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+                    </Button>
+                  </Link>
+                )}
               </CardContent>
             </Card>
           ))}

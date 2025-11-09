@@ -1,4 +1,4 @@
-import { Shield } from "lucide-react";
+import logoDetetive from "@/assets/logo-detetive.jfif";
 
 const Footer = () => {
   return (
@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="flex items-center gap-3">
-            <Shield className="w-8 h-8 text-accent" />
+            <img src={logoDetetive} alt="Logo Detetive Bareta" className="w-12 h-12 object-contain" />
             <div>
               <h3 className="font-bold text-lg">Agência Brasília de Investigações</h3>
               <p className="text-sm text-primary-foreground/80">Confiança e discrição desde 1985</p>

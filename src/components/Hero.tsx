@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
-import { Phone, Shield } from "lucide-react";
+import { Phone } from "lucide-react";
 import heroImage from "@/assets/hero-investigation.jpg";
+import logoDetetive from "@/assets/logo-detetive.jfif";
 
 const Hero = () => {
   const handleWhatsAppClick = () => {
@@ -24,8 +25,8 @@ const Hero = () => {
       {/* Content */}
       <div className="container mx-auto px-4 relative z-10 text-center">
         <div className="max-w-4xl mx-auto space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-1000">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent/10 border border-accent/20 backdrop-blur-sm">
-            <Shield className="w-5 h-5 text-accent" />
+          <div className="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-accent/10 border border-accent/20 backdrop-blur-sm">
+            <img src={logoDetetive} alt="Logo Detetive Bareta" className="w-8 h-8 object-contain" />
             <span className="text-accent font-medium">Investigações Profissionais desde 1985</span>
           </div>
           

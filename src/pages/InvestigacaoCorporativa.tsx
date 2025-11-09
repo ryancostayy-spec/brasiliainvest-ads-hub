@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Building2, Phone, Shield, CheckCircle2, FileSearch, AlertTriangle } from "lucide-react";
@@ -255,6 +256,7 @@ const InvestigacaoCorporativa = () => {
       </main>
       
       <Footer />
+      <FloatingWhatsApp />
     </div>
   );
 };

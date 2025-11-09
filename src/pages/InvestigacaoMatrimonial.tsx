@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Heart, Phone, Shield, Lock, Clock, CheckCircle2 } from "lucide-react";
@@ -207,6 +208,7 @@ const InvestigacaoMatrimonial = () => {
       </main>
       
       <Footer />
+      <FloatingWhatsApp />
     </div>
   );
 };

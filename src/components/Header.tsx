@@ -16,7 +16,7 @@ const Header = () => {
             <img src={logoDetetive} alt="Logo Detetive Bareta" className="w-12 h-12 object-contain" />
             <div className="hidden md:block">
               <h3 className="font-bold text-lg text-foreground">Agência Brasília de Investigações</h3>
-              <p className="text-xs text-muted-foreground">Desde 1985</p>
+              <p className="text-xs text-muted-foreground">Desde 1999</p>
             </div>
           </Link>
           

@@ -9,7 +9,7 @@ const Footer = () => {
             <img src={logoDetetive} alt="Logo Detetive Bareta" className="w-12 h-12 object-contain" />
             <div>
               <h3 className="font-bold text-lg">Agência Brasília de Investigações</h3>
-              <p className="text-sm text-primary-foreground/80">Confiança e discrição desde 1985</p>
+              <p className="text-sm text-primary-foreground/80">Confiança e discrição desde 1999</p>
             </div>
           </div>
           

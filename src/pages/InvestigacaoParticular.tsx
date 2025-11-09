@@ -158,9 +158,9 @@ const InvestigacaoParticular = () => {
                   <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-accent/10">
                     <Shield className="w-8 h-8 text-accent" />
                   </div>
-                  <h3 className="font-bold text-lg">+25 Anos de Experiência</h3>
+                  <h3 className="font-bold text-lg">+47 Anos de Experiência</h3>
                   <p className="text-muted-foreground">
-                    Tradição e confiabilidade desde 1999
+                    Tradição e confiabilidade desde 1977 em Brasília
                   </p>
                 </div>
 

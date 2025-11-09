@@ -128,7 +128,7 @@ const InvestigacaoCorporativa = () => {
                       <div>
                         <h3 className="font-bold text-xl mb-2">Experiência Comprovada</h3>
                         <p className="text-muted-foreground">
-                          Mais de 25 anos atendendo grandes empresas, escritórios de advocacia e órgãos públicos em Brasília.
+                          Mais de 47 anos atendendo grandes empresas, escritórios de advocacia e órgãos públicos em Brasília.
                         </p>
                       </div>
                     </div>

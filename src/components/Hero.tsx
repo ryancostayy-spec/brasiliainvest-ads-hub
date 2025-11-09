@@ -27,7 +27,7 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-1000">
           <div className="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-accent/10 border border-accent/20 backdrop-blur-sm">
             <img src={logoDetetive} alt="Logo Detetive Bareta" className="w-8 h-8 object-contain" />
-            <span className="text-accent font-medium">Investigações Profissionais desde 1999</span>
+            <span className="text-accent font-medium">Profissionais desde 1977 em Brasília</span>
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold text-primary-foreground leading-tight">
@@ -61,7 +61,7 @@ const Hero = () => {
 
           <div className="flex flex-wrap justify-center gap-8 pt-8 text-primary-foreground/80">
             <div className="flex flex-col items-center">
-              <span className="text-4xl font-bold text-accent">+25</span>
+              <span className="text-4xl font-bold text-accent">+47</span>
               <span className="text-sm">Anos de Experiência</span>
             </div>
             <div className="flex flex-col items-center">

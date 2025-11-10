@@ -58,13 +58,6 @@ const Hero = () => {
               Conheça Nossos Serviços
             </Button>
           </div>
-
-          <div className="flex flex-wrap justify-center gap-8 pt-8 text-primary-foreground/80">
-            <div className="flex flex-col items-center">
-              <span className="text-4xl font-bold text-accent">+47</span>
-              <span className="text-sm">Anos de Experiência</span>
-            </div>
-          </div>
         </div>
       </div>
 

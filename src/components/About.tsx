@@ -20,17 +20,17 @@ const About = () => {
               Sobre Nós
             </Badge>
             <h2 className="text-4xl md:text-5xl font-bold text-foreground">
-              Confiança e Experiência a Seu Serviço
+              Sobre o Detetive Bareta
             </h2>
             <div className="space-y-4 text-lg text-muted-foreground">
               <p>
-                A <strong className="text-foreground">Agência Brasília de Investigações Ltda</strong> é referência em investigação particular e corporativa no Distrito Federal desde 1985.
+                Sou o <strong className="text-foreground">Detetive Bareta</strong>, sempre pautando o meu trabalho na ética e no sigilo e almejando excelência na prestação dos serviços de investigação.
               </p>
               <p>
-                Com mais de 35 anos de atuação, nossa equipe é formada por investigadores experientes, muitos com formação em segurança pública e inteligência, garantindo resultados precisos e confiáveis.
+                Conhecido nacionalmente como detetive Bareta desde 1977 e posteriormente um empresário proprietário da <strong className="text-foreground">Agência Brasília de Investigações</strong>, registrada no ano de 1999 sob N° 01.276.1999 na data de 10/09/1999, nome fantasia <strong className="text-foreground">Bareta Investigações</strong> - reconhecida como uma empresa séria e focada em resultados positivos para os seus clientes.
               </p>
               <p>
-                Utilizamos tecnologia de ponta e seguimos rigorosos protocolos de confidencialidade, assegurando que cada caso seja tratado com o máximo sigilo e profissionalismo.
+                No mercado há <strong className="text-foreground">47 anos</strong>, somos uma empresa de informações privadas e confidenciais, sediada na capital federal, Brasília – DF. Os casos confiados à empresa são cuidadosamente analisados por nossos agentes de inteligência, profissionais que dada a destreza e capacidade, atuam com absoluto sigilo, discrição e competência, o que permite ao cliente resultados rápidos e seguros.
               </p>
             </div>
           </div>

@@ -36,7 +36,8 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-primary-foreground/90 max-w-3xl mx-auto leading-relaxed">
-            Discrição absoluta, resultados concretos. Especialistas em investigações particulares e corporativas em Brasília e todo o Distrito Federal.
+            Somos especialistas em investigações particulares e corporativas em Brasília e todo o Distrito Federal.
+            Atuamos com sigilo absoluto, eficiência e ética, garantindo a você informações precisas e soluções eficazes.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">

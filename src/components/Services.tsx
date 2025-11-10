@@ -26,19 +26,19 @@ const services = [
     icon: FileSearch,
     title: "Investigação Trabalhista",
     description: "Coleta de provas para processos trabalhistas e verificação de atestados médicos.",
-    link: "#",
+    link: "",
   },
   {
     icon: Camera,
     title: "Vigilância e Monitoramento",
     description: "Acompanhamento discreto 24h com equipamentos de última geração.",
-    link: "#",
+    link: "",
   },
   {
     icon: ShieldCheck,
     title: "Consultoria em Segurança",
     description: "Análise de vulnerabilidades e implementação de medidas de segurança preventivas.",
-    link: "#",
+    link: "",
   },
 ];
 
@@ -71,7 +71,7 @@ const Services = () => {
                 <CardDescription className="text-base mb-4 flex-grow">
                   {service.description}
                 </CardDescription>
-                {service.link !== "#" && (
+                {service.link && (
                   <Link to={service.link}>
                     <Button variant="outline" className="w-full group">
                       Saiba Mais

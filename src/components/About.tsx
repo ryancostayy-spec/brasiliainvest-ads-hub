@@ -50,12 +50,15 @@ const About = () => {
               </div>
             </div>
 
-            <div className="bg-accent/5 border border-accent/20 rounded-lg p-6">
+            <div className="bg-accent/5 border border-accent/20 rounded-lg p-6 space-y-3">
               <p className="text-foreground">
                 <strong className="text-accent">CNPJ:</strong> 03.254.280/0001-52
               </p>
-              <p className="text-sm text-muted-foreground mt-2">
-                Empresa regularmente constituída e apta a prestar serviços de investigação
+              <p className="text-foreground">
+                <strong className="text-accent">Registro:</strong> N° 01.276.1999 (10/09/1999)
+              </p>
+              <p className="text-sm text-muted-foreground">
+                Empresa regularmente constituída e apta a prestar serviços de investigação, atuando conforme a regulamentação da <strong className="text-foreground">Lei 13.432/17</strong>
               </p>
             </div>
           </div>

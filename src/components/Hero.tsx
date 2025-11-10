@@ -68,10 +68,6 @@ const Hero = () => {
               <span className="text-4xl font-bold text-accent">100%</span>
               <span className="text-sm">Confidencial</span>
             </div>
-            <div className="flex flex-col items-center">
-              <span className="text-4xl font-bold text-accent">24/7</span>
-              <span className="text-sm">Atendimento</span>
-            </div>
           </div>
         </div>
       </div>

@@ -82,12 +82,12 @@ const Contact = () => {
                   </p>
                   <Button 
                     size="lg" 
-                    variant="cta"
+                    variant="default"
                     onClick={handleWhatsAppClick}
-                    className="w-full text-lg py-6 mt-4"
+                    className="w-full text-lg py-6 mt-4 bg-accent text-accent-foreground hover:bg-accent/90 font-bold shadow-xl"
                   >
-                    <Phone className="w-5 h-5" />
-                    Falar com Especialista
+                    <Phone className="w-5 h-5 mr-2" />
+                    Falar com Especialista via WhatsApp
                   </Button>
                 </div>
               </CardContent>

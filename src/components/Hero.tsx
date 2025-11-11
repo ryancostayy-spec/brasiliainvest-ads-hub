@@ -36,8 +36,8 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-primary-foreground/90 max-w-3xl mx-auto leading-relaxed">
-            Detetive Particular profissional em Brasília. Serviços de detetive DF com sigilo absoluto, eficiência e ética.
-            Investigação particular e corporativa com preço justo e consulta gratuita.
+            Detetive particular sigiloso em Brasília 24 horas. Investigação particular, conjugal e empresarial em todo DF.
+            Agência de investigação profissional com sigilo absoluto e preço justo.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">

@@ -5,8 +5,8 @@ const differentials = [
   "Equipe especializada e certificada",
   "Equipamentos de última geração",
   "Relatórios detalhados e documentados",
-  "Sigilo e discrição garantidos",
-  "Atendimento 24 horas",
+  "Investigação sigilosa garantida",
+  "Atendimento 24 horas - Detetive 24h DF",
   "Atuação em todo o Distrito Federal",
 ];
 
@@ -30,7 +30,7 @@ const About = () => {
                 Conhecido nacionalmente como detetive Bareta desde 1977 e posteriormente um empresário proprietário da <strong className="text-foreground">Agência Brasília de Investigações</strong>, a melhor agência de detetives DF, registrada no ano de 1999 sob N° 01.276.1999, nome fantasia <strong className="text-foreground">Bareta Investigações</strong> - reconhecida como uma empresa séria e focada em resultados positivos.
               </p>
               <p>
-                No mercado há <strong className="text-foreground">47 anos</strong>, somos uma agência de detetives profissional com serviços de investigação particular em Brasília DF. Os casos confiados à empresa são cuidadosamente analisados por nossos agentes de inteligência, profissionais que atuam com absoluto sigilo, discrição e competência, garantindo resultados rápidos e seguros com preço justo.
+                No mercado há <strong className="text-foreground">47 anos</strong>, somos uma agência de investigação DF especializada em investigação particular sigilosa em Brasília. Detetive 24 horas para localização de pessoas, investigação conjugal e empresarial. Os casos são cuidadosamente analisados por nossos agentes, profissionais que atuam com absoluto sigilo, discrição e competência, garantindo resultados rápidos e seguros com preço justo.
               </p>
             </div>
           </div>

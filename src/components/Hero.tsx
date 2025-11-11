@@ -30,9 +30,8 @@ const Hero = () => {
             <span className="text-accent font-medium">Profissionais desde 1977 em Brasília</span>
           </div>
           
-          <h1 className="text-5xl md:text-7xl font-bold text-primary-foreground leading-tight">
-            Detetive Particular em Brasília DF
-            <span className="block text-accent mt-2">Agência de Detetives Profissional</span>
+          <h1 className="text-5xl md:text-7xl font-bold text-accent leading-tight">
+            Agência de Detetives Profissional
           </h1>
           
           <p className="text-xl md:text-2xl text-primary-foreground/90 max-w-3xl mx-auto leading-relaxed">

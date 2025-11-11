@@ -52,8 +52,8 @@ const Hero = () => {
             </Button>
             <Button 
               size="lg" 
-              variant="outline"
-              className="text-lg px-8 py-6 w-full sm:w-auto bg-background/10 backdrop-blur-sm border-2 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary"
+              variant="secondary"
+              className="text-lg px-8 py-6 w-full sm:w-auto shadow-lg hover:shadow-xl"
               onClick={() => document.getElementById('servicos')?.scrollIntoView({ behavior: 'smooth' })}
             >
               Conheça Nossos Serviços

@@ -1,12 +1,27 @@
 import { Button } from "@/components/ui/button";
-import { Phone } from "lucide-react";
+import { Phone, Menu } from "lucide-react";
 import { Link } from "react-router-dom";
+import { useState } from "react";
+import {
+  Sheet,
+  SheetContent,
+  SheetTrigger,
+} from "@/components/ui/sheet";
 import logoDetetive from "@/assets/logo-detetive.jfif";
+import { NavLink } from "./NavLink";
 
 const Header = () => {
+  const [open, setOpen] = useState(false);
+  
   const handleWhatsAppClick = () => {
     window.open("https://wa.me/5561999711190", "_blank");
   };
+
+  const navigationLinks = [
+    { to: "/", label: "Início" },
+    { to: "/servicos", label: "Serviços" },
+    { to: "/escritorio", label: "Escritório" },
+  ];
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
@@ -20,15 +35,55 @@ const Header = () => {
             </div>
           </Link>
           
-          <Button 
-            onClick={handleWhatsAppClick}
-            variant="cta"
-            size="lg"
-            className="gap-2"
-          >
-            <Phone className="w-4 h-4" />
-            <span className="hidden sm:inline">WhatsApp</span>
-          </Button>
+          {/* Desktop Navigation */}
+          <nav className="hidden lg:flex items-center gap-6">
+            {navigationLinks.map((link) => (
+              <NavLink
+                key={link.to}
+                to={link.to}
+                className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+                activeClassName="text-primary font-semibold"
+              >
+                {link.label}
+              </NavLink>
+            ))}
+          </nav>
+
+          <div className="flex items-center gap-2">
+            <Button 
+              onClick={handleWhatsAppClick}
+              variant="cta"
+              size="lg"
+              className="gap-2"
+            >
+              <Phone className="w-4 h-4" />
+              <span className="hidden sm:inline">WhatsApp</span>
+            </Button>
+
+            {/* Mobile Menu */}
+            <Sheet open={open} onOpenChange={setOpen}>
+              <SheetTrigger asChild className="lg:hidden">
+                <Button variant="outline" size="icon">
+                  <Menu className="h-5 w-5" />
+                </Button>
+              </SheetTrigger>
+              <SheetContent side="right" className="w-[300px] sm:w-[400px]">
+                <nav className="flex flex-col gap-4 mt-8">
+                  {navigationLinks.map((link) => (
+                    <NavLink
+                      key={link.to}
+                      to={link.to}
+                      onClick={() => setOpen(false)}
+                      className="text-lg font-medium text-muted-foreground hover:text-foreground transition-colors py-2"
+                      activeClassName="text-primary font-semibold"
+                    >
+                      {link.label}
+                    </NavLink>
+                  ))}
+                </nav>
+              </SheetContent>
+            </Sheet>
+          </div>
         </div>
       </div>
     </header>

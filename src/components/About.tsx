@@ -58,7 +58,7 @@ const About = () => {
                 <strong className="text-accent">Registro:</strong> N° 01.276.1999 (10/09/1999)
               </p>
               <p className="text-sm text-muted-foreground">
-                Empresa regularmente constituída e apta a prestar serviços de investigação, atuando conforme a regulamentação da <strong className="text-foreground">Lei 13.432/17</strong>
+                Empresa regularmente constituída e apta a prestar serviços de investigação, atuando conforme a regulamentação da <strong className="text-foreground">Lei 13.432/2017</strong>. Detetive particular com registro legal e escritório físico em Brasília DF para garantir sua segurança e tranquilidade.
               </p>
             </div>
           </div>

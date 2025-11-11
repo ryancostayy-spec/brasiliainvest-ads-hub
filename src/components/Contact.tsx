@@ -47,8 +47,8 @@ const Contact = () => {
                   <div className="flex-1">
                     <h3 className="text-lg font-semibold text-foreground mb-2">Endereço</h3>
                     <p className="text-muted-foreground">
-                      Setor Sha Conjunto 6 Chácara 11<br />
-                      Lote 25 e 26 - Setor Habitacional<br />
+                      Col. Agrícola Vereda da Cruz<br />
+                      St. Hab. Arniqueira<br />
                       Brasília - DF
                     </p>
                   </div>
@@ -98,14 +98,14 @@ const Contact = () => {
             <Card className="border-border overflow-hidden">
               <CardContent className="p-0">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3839.1887735866724!2d-47.99776892391604!3d-15.78409238487638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a250fc8f3e46f%3A0x7e3d0e0d1e3e3e3e!2sAg%C3%AAncia%20Bras%C3%ADlia%20de%20Investiga%C3%A7%C3%A3o%20-%20Detetive%20Bareta!5e0!3m2!1spt-BR!2sbr!4v1234567890123!5m2!1spt-BR!2sbr"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3838.756!2d-48.050!3d-15.850!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935bcf0e6f16e6a5%3A0x2b1e0f5e6e5e6e5e!2sAg%C3%AAncia%20Bras%C3%ADlia%20de%20Investiga%C3%A7%C3%A3o%20-%20Detetive%20Bareta!5e0!3m2!1spt-BR!2sbr!4v1234567890123!5m2!1spt-BR!2sbr"
                   width="100%"
                   height="450"
                   style={{ border: 0 }}
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Localização da Agência Brasília de Investigações - Detetive Bareta"
+                  title="Localização da Agência Brasília de Investigações - Detetive Bareta - Col. Agrícola Vereda da Cruz, Arniqueira"
                 />
               </CardContent>
             </Card>

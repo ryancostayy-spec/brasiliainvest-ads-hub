@@ -23,7 +23,7 @@ const Hero = () => {
       </div>
 
       {/* Content */}
-      <div className="container mx-auto px-4 relative z-10 text-center">
+      <div className="container mx-auto px-4 relative z-10 text-center pb-32">
         <div className="max-w-4xl mx-auto space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-1000">
           <div className="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-accent/10 border border-accent/20 backdrop-blur-sm">
             <img src={logoDetetive} alt="Logo Detetive Bareta" className="w-8 h-8 object-contain" />

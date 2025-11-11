@@ -50,8 +50,8 @@ const Services = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-foreground">
             Serviços de Detetive em Brasília DF
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Detetive particular profissional DF com soluções completas em investigação, tecnologia avançada e preço justo
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            Detetive particular profissional DF com investigação sigilosa para casos particulares, conjugais e empresariais. Atendemos toda Brasília: Asa Sul, Asa Norte, Taguatinga, Ceilândia, Guará, Planaltina, Gama, Águas Claras, Sobradinho, Samambaia e todo o Distrito Federal. Agência de investigação DF com equipamentos de ponta e atendimento 24 horas.
           </p>
         </div>
 

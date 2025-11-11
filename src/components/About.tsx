@@ -7,7 +7,7 @@ const differentials = [
   "Relatórios detalhados e documentados",
   "Investigação sigilosa garantida",
   "Atendimento 24 horas - Detetive 24h DF",
-  "Atuação em todo o Distrito Federal",
+  "Atendemos: Asa Sul, Asa Norte, Taguatinga, Ceilândia, Guará, Planaltina, Gama, Águas Claras, Sobradinho, Samambaia e todo o DF",
 ];
 
 const About = () => {

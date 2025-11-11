@@ -48,10 +48,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 space-y-4">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground">
-            Nossos Serviços
+            Serviços de Detetive em Brasília DF
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Soluções completas em investigação com tecnologia avançada e equipe altamente qualificada
+            Detetive particular profissional DF com soluções completas em investigação, tecnologia avançada e preço justo
           </p>
         </div>
 

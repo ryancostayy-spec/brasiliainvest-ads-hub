@@ -31,13 +31,13 @@ const Hero = () => {
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold text-primary-foreground leading-tight">
-            Agência Brasília de
-            <span className="block text-accent mt-2">Investigações</span>
+            Detetive Particular em Brasília DF
+            <span className="block text-accent mt-2">Agência de Detetives Profissional</span>
           </h1>
           
           <p className="text-xl md:text-2xl text-primary-foreground/90 max-w-3xl mx-auto leading-relaxed">
-            Somos especialistas em investigações particulares e corporativas em Brasília e todo o Distrito Federal.
-            Atuamos com sigilo absoluto, eficiência e ética, garantindo a você informações precisas e soluções eficazes.
+            Detetive Particular profissional em Brasília. Serviços de detetive DF com sigilo absoluto, eficiência e ética.
+            Investigação particular e corporativa com preço justo e consulta gratuita.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">

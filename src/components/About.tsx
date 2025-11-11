@@ -20,17 +20,17 @@ const About = () => {
               Sobre Nós
             </Badge>
             <h2 className="text-4xl md:text-5xl font-bold text-foreground">
-              Sobre o Detetive Bareta
+              Detetive Particular DF - Bareta
             </h2>
             <div className="space-y-4 text-lg text-muted-foreground">
               <p>
-                Sou o <strong className="text-foreground">Detetive Bareta</strong>, sempre pautando o meu trabalho na ética e no sigilo e almejando excelência na prestação dos serviços de investigação.
+                Sou o <strong className="text-foreground">Detetive Bareta</strong>, detetive particular profissional em Brasília DF, sempre pautando o meu trabalho na ética e no sigilo e almejando excelência na prestação dos serviços de detetive DF.
               </p>
               <p>
-                Conhecido nacionalmente como detetive Bareta desde 1977 e posteriormente um empresário proprietário da <strong className="text-foreground">Agência Brasília de Investigações</strong>, registrada no ano de 1999 sob N° 01.276.1999 na data de 10/09/1999, nome fantasia <strong className="text-foreground">Bareta Investigações</strong> - reconhecida como uma empresa séria e focada em resultados positivos para os seus clientes.
+                Conhecido nacionalmente como detetive Bareta desde 1977 e posteriormente um empresário proprietário da <strong className="text-foreground">Agência Brasília de Investigações</strong>, a melhor agência de detetives DF, registrada no ano de 1999 sob N° 01.276.1999, nome fantasia <strong className="text-foreground">Bareta Investigações</strong> - reconhecida como uma empresa séria e focada em resultados positivos.
               </p>
               <p>
-                No mercado há <strong className="text-foreground">47 anos</strong>, somos uma empresa de informações privadas e confidenciais, sediada na capital federal, Brasília – DF. Os casos confiados à empresa são cuidadosamente analisados por nossos agentes de inteligência, profissionais que dada a destreza e capacidade, atuam com absoluto sigilo, discrição e competência, o que permite ao cliente resultados rápidos e seguros.
+                No mercado há <strong className="text-foreground">47 anos</strong>, somos uma agência de detetives profissional com serviços de investigação particular em Brasília DF. Os casos confiados à empresa são cuidadosamente analisados por nossos agentes de inteligência, profissionais que atuam com absoluto sigilo, discrição e competência, garantindo resultados rápidos e seguros com preço justo.
               </p>
             </div>
           </div>

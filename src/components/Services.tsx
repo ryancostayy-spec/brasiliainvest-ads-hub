@@ -71,13 +71,24 @@ const Services = () => {
                 <CardDescription className="text-base mb-4 flex-grow">
                   {service.description}
                 </CardDescription>
-                {service.link && (
+                {service.link ? (
                   <Link to={service.link}>
                     <Button variant="outline" className="w-full group">
                       Saiba Mais
                       <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                     </Button>
                   </Link>
+                ) : (
+                  <a 
+                    href="https://wa.me/5561999711190?text=Olá! Gostaria de saber mais sobre este serviço." 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                  >
+                    <Button variant="outline" className="w-full group">
+                      Solicitar Orçamento
+                      <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+                    </Button>
+                  </a>
                 )}
               </CardContent>
             </Card>
